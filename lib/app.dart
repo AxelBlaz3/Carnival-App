@@ -1,15 +1,10 @@
 import 'package:curate_app/colors.dart';
-import 'package:curate_app/constants.dart';
 import 'package:curate_app/models/notifiers/user_model.dart';
 import 'package:curate_app/screens/home/home.dart';
-import 'package:curate_app/screens/onboarding/onboarding_genre.dart';
 import 'package:curate_app/screens/onboarding/onboarding_main.dart';
-import 'package:curate_app/screens/onboarding/onboarding_streaming_services.dart';
 import 'package:curate_app/screens/onboarding/onboarding_workout_length.dart';
-import 'package:curate_app/screens/onboarding/onboarding_workout_type.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
 
 import 'models/user.dart';

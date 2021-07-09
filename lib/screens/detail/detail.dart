@@ -556,9 +556,11 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
     await canLaunch(workoutCategory == WorkoutCategory.PODCAST
             ? watchLink!
             : watchProviderWebSites[providerMetaData!.providerId!]!)
-        ? await launch(workoutCategory == WorkoutCategory.PODCAST
-            ? watchLink!
-            : watchProviderWebSites[providerMetaData!.providerId!]!)
+        ? await launch(
+            workoutCategory == WorkoutCategory.PODCAST
+                ? watchLink!
+                : watchProviderWebSites[providerMetaData!.providerId!]!,
+            forceSafariVC: false)
         : throw 'Could not launch ${workoutCategory == WorkoutCategory.PODCAST ? watchLink! : watchProviderWebSites[providerMetaData!.providerId!]!}';
   }
 }

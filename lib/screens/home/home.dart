@@ -1,4 +1,3 @@
-import 'dart:convert';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:curate_app/colors.dart';
@@ -9,14 +8,12 @@ import 'package:curate_app/models/podcast.dart';
 import 'package:curate_app/models/tv.dart';
 import 'package:curate_app/screens/detail/detail.dart';
 import 'package:curate_app/screens/detail/full_list.dart';
-import 'package:curate_app/screens/home/custom_page_scroll_physics.dart';
 import 'package:curate_app/screens/settings/filter_list.dart';
 import 'package:curate_app/screens/settings/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../../colors.dart';
 import '../../constants.dart';
