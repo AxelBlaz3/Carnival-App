@@ -21,10 +21,19 @@ Use Carnival to search for podcasts, tv shows, and movies from your favourite pl
 
 ## Screenshots
 <div style="display:flex">
-  <img src="/docs/images/workout_duration.webp" height="600" width="360" />
-  &nbsp&nbsp&nbsp&nbsp
   <img src="/docs/images/home.webp" height="600" width="360" />
   &nbsp&nbsp&nbsp&nbsp
+  <img src="/docs/images/workout_duration.webp" height="600" width="360" />
+  &nbsp&nbsp&nbsp&nbsp
   <img src="/docs/images/detail.webp" height="600" width="360" />
+  &nbsp&nbsp&nbsp&nbsp
+  <img src="/docs/images/onboarding.png" height="600" width="272" />
+  &nbsp&nbsp&nbsp&nbsp
+  <img src="/docs/images/signup.png" height="600" width="272" />
+  &nbsp&nbsp&nbsp&nbsp
+  <img src="/docs/images/genres.png" height="600" width="272" />
+  &nbsp&nbsp&nbsp&nbsp
+  <img src="/docs/images/streaming_services.png" height="600" width="272" />
+  &nbsp&nbsp&nbsp&nbsp
 </div>
 
